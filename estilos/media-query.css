@@ -1,13 +1,14 @@
 @charset "UTF-8";
 
-/* paleta de cores
-    #593954  lilás
-    #013440  azul
-    #026873  azul claro
-    #F27405  amarelo
+/* Typical Device Breakpoints
+Mobile devices – 320px — 480px.
+iPads, Tablets – 481px — 768px.
+Small screens, laptops – 769px — 1024px.
+Desktops, large screens – 1025px — 1200px.
+Extra large screens, TV – 1201px, and more.
 */
 
-/*paleta secundária
+/*paleta de cores
 030406 preto
 06090A cinza
 062D21 verde
@@ -15,9 +16,9 @@
 250D1A roxo
 */
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {  /*992*/
     body {
-        background-image: linear-gradient(#030406, #06090A, #062D21, #140D26, #250D1A );/*linear-gradient(#593954, #013440, #026873);*/
+        background-image: linear-gradient(#030406, #06090A, #062D21, #140D26, #250D1A );
     }
 
     section#login {
@@ -37,7 +38,7 @@
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1024px) {  /*992*/
     body {
         background-image: linear-gradient(#030406, #06090A, #062D21, #140D26, #250D1A);
     }
